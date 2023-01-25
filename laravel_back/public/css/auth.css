@@ -1,0 +1,419 @@
+/* ___________1. Сброс CSS_____________________ */
+* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+time,
+mark,
+audio,
+video,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+section,
+summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+input[type="submit"],
+input[type="reset"] {
+  cursor: pointer;
+}
+::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  outline: none;
+}
+object {
+  pointer-events: none;
+}
+/* ___________2. Типовые элементы______________ */
+/* _______________2.1. Заголовки_______________ */
+h2 {
+  font-weight: normal;
+}
+/* _______________2.2. Ссылки__________________ */
+a {
+  outline: none;
+  color: #69A7F7;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+a:hover,
+a:focus {
+  color: #69A7F7;
+  text-decoration: none;
+}
+/* _______________2.3. Элементы форм___________ */
+.form__link {
+  display: block;
+}
+.form__line {
+  margin-bottom: 30px;
+}
+.form__line_remember {
+  position: relative;
+  top: -15px;
+}
+.form__field {
+  padding: 0 10px;
+  width: 100%;
+  height: 42px;
+  line-height: 42px;
+  font: 300 16px 'Roboto', sans-serif;
+  color: #000;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  background: none;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+}
+.form__field::-webkit-input-placeholder {
+  opacity: 0.65;
+  color: #000;
+}
+.form__field::-moz-placeholder {
+  opacity: 0.65;
+  color: #000;
+}
+.form__field:-moz-placeholder {
+  opacity: 0.65;
+  color: #000;
+}
+.form__field:-ms-input-placeholder {
+  opacity: 0.65;
+  color: #000;
+}
+.form__field:focus {
+  border: 1px solid #CC9966;
+  box-shadow: 1px 0 8px rgba(0, 0, 0, 0.5);
+}
+.form__error {
+  position: relative;
+  margin-top: 15px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  background: #db2020;
+}
+.form__error::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -10px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #db2020 transparent;
+}
+.form__submit {
+  padding-top: 15px;
+}
+/* _______________2.4. Сетка___________________ */
+/* _______________2.5. Базовые_________________ */
+html {
+  height: 100%;
+  font-size: 100%;
+}
+body {
+  height: 100%;
+  background: #fff;
+  color: #000;
+  font-family: PT Root UI_Regular, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+img,
+object {
+  max-width: 100%;
+  outline: none;
+}
+.none {
+  display: none;
+}
+.no-scroll {
+  overflow: hidden;
+}
+.button {
+  display: inline-block;
+  padding: 8px 40px;
+  -webkit-appearance: none;
+  background: #CC9966;
+  border-radius: 18px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  transition: all 0.3s ease 0s;
+}
+.button_wide {
+  width: 100%;
+}
+/* _______________2.6. Шрифты__________________ */
+/* _______________2.7. Другие__________________ */
+/* ___________3. HEADER  (Шапка)_______________ */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  padding: 15px;
+  height: 120px;
+  background: #f2f2f2;
+  z-index: 1;
+}
+.logo {
+  display: block;
+}
+.logo__img {
+  display: block;
+  max-height: 70px;
+  height: 100%;
+}
+/* ___________4. SECTION (Контент)_____________ */
+.content {
+  padding: 135px 15px 65px;
+  margin-top: -120px;
+  top: 120px;
+  margin-bottom: -50px;
+  bottom: 50px;
+  z-index: 0;
+  min-height: 100vh;
+}
+.auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.auth__title {
+  display: block;
+  width: 100%;
+}
+.auth__back {
+  justify-self: left;
+}
+.auth__form {
+  padding: 15px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.03);
+}
+.auth__header {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.back {
+  display: block;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  max-width: 150px;
+  color: #000;
+  text-decoration: none;
+}
+.back:hover {
+  color: #4d4d4d;
+}
+.back__img {
+  display: inline-block;
+  transform: translateY(3px);
+}
+.back__text {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+}
+/* ___________5. FOOTER  (Подвал)______________ */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  background: #d9d9d9;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .form__link {
+    padding: 14px 0;
+    font-size: 16px;
+  }
+}
+@media (max-width: 479px) {
+  /* ___________1. Сброс CSS_____________________ */
+  /* ___________2. Типовые элементы______________ */
+  /* _______________2.1. Заголовки_______________ */
+  /* _______________2.2. Ссылки__________________ */
+  /* _______________2.3. Элементы форм___________ */
+  /* _______________2.4. Сетка___________________ */
+  /* _______________2.5. Базовые_________________ */
+  /* _______________2.6. Шрифты__________________ */
+  /* _______________2.7. Другие__________________ */
+  /* ___________3. HEADER  (Шапка)_______________ */
+  /* ___________4. SECTION (Контент)_____________ */
+  .header {
+    height: 80px;
+    padding: 5px;
+  }
+  .content {
+    padding: 125px 15px 85px;
+    margin-top: -80px;
+    top: 80px;
+    margin-bottom: -40px;
+    bottom: 40px;
+  }
+  .auth__header {
+    margin-bottom: 0;
+  }
+  .auth__title {
+    font-size: 26px;
+  }
+  .form__line {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .form__sunmit {
+    padding-top: 0;
+  }
+  /* ___________5. FOOTER  (Подвал)______________ */
+  .footer {
+    position: relative;
+    height: 40px;
+  }
+}
+

@@ -1,0 +1,16 @@
+[
+{"type":"header","version":"4.9.5deb2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"algirdas"},
+{"type":"table","name":"tickets","database":"algirdas","data":
+[
+{"id":"1","user_id":"4","date_id":null,"count":"1","is_purchased":"1","is_expired":"0","is_reminded":"0","recipient_persons":"[{\"name\":\"Peter Pan\",\"email\":\"a.bugriy@celado-media.ru\",\"phone\":\"23645756896\"}]","invoice_id":null,"created_at":"2021-02-19 02:02:45","updated_at":"2021-02-19 02:05:07"},
+{"id":"5","user_id":"4","date_id":null,"count":"1","is_purchased":"1","is_expired":"0","is_reminded":"0","recipient_persons":"[{\"name\":\"Artem\",\"email\":\"a.bugriy@celado-media.ru\",\"phone\":null}]","invoice_id":null,"created_at":"2021-02-19 19:31:41","updated_at":"2021-02-19 19:32:06"},
+{"id":"12","user_id":"34","date_id":"24","count":"1","is_purchased":"1","is_expired":"0","is_reminded":"0","recipient_persons":"[{\"name\":\"Aivaras Kontenis\",\"email\":\"aivaras_kontenis@yahoo.com\",\"phone\":\"37065219036\"}]","invoice_id":"24","created_at":"2021-04-12 11:28:43","updated_at":"2021-04-12 11:39:36"},
+{"id":"14","user_id":"30","date_id":"24","count":"2","is_purchased":"1","is_expired":"0","is_reminded":"0","recipient_persons":"[{\"name\":\"Jonas Gustainis\",\"email\":\"jonas.gustainis@gmail.com\",\"phone\":\"862731364\"},{\"name\":\"Vitalis Gustainis\",\"email\":\"gustainisv@yahoo.com\",\"phone\":\"868258774\"}]","invoice_id":"25","created_at":"2021-04-12 13:08:02","updated_at":"2021-04-12 13:11:27"},
+{"id":"19","user_id":"38","date_id":"24","count":"1","is_purchased":"1","is_expired":"0","is_reminded":"0","recipient_persons":"[{\"name\":\"Mantas Kubilius\",\"email\":\"mantas@dentavita.lt\",\"phone\":\"37063392126\"}]","invoice_id":"32","created_at":"2021-04-12 16:28:09","updated_at":"2021-04-12 16:31:00"},
+{"id":"20","user_id":"39","date_id":"24","count":"1","is_purchased":"1","is_expired":"0","is_reminded":"0","recipient_persons":"[{\"name\":\"David Kasradze\",\"email\":\"davidkasradze@gmail.com\",\"phone\":\"37060919624\"}]","invoice_id":"33","created_at":"2021-04-12 18:59:31","updated_at":"2021-04-12 19:00:36"},
+{"id":"21","user_id":"35","date_id":"24","count":"1","is_purchased":"1","is_expired":"0","is_reminded":"0","recipient_persons":"[{\"name\":\"Mantas Sungaila\",\"email\":\"mantas.sungaila@gmail.com\",\"phone\":\"37061142188\"}]","invoice_id":"34","created_at":"2021-04-12 20:17:50","updated_at":"2021-04-12 20:28:10"},
+{"id":"22","user_id":"40","date_id":"24","count":"1","is_purchased":"1","is_expired":"0","is_reminded":"0","recipient_persons":"[{\"name\":\"Agil\\u0117 Martu\\u0161yt\\u0117\",\"email\":\"agile.martusyte@gmail.com\",\"phone\":\"37065205665\"}]","invoice_id":"35","created_at":"2021-04-12 21:18:15","updated_at":"2021-04-12 21:21:16"}
+]
+}
+]

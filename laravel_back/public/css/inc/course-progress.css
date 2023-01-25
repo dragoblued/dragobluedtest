@@ -1,0 +1,8 @@
+.progress {
+  display: flex;
+  align-items: stretch;
+  max-height: 700px;
+  min-height: 600px;
+  background-color: #3E3E3E;
+}
+

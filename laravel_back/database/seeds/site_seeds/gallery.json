@@ -1,0 +1,38 @@
+[
+{"type":"header","version":"4.9.5deb2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"algirdas"},
+{"type":"table","name":"gallery","database":"algirdas","data":
+[
+{"id":"1","type":"image","mime_type":null,"name":"certificate","url":"media\/gallery\/1\/1.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-02-19 01:46:29","updated_at":null},
+{"id":"2","type":"image","mime_type":null,"name":"certificate","url":"media\/gallery\/2\/2.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-02-19 01:46:29","updated_at":null},
+{"id":"3","type":"video","mime_type":null,"name":null,"url":"media\/gallery\/3\/3.mp4","poster_url":"media\/gallery\/3\/3_poster.jpg","available_formats":"[\"360p\",\"480p\",\"720p\"]","converted":"1","created_at":"2021-02-19 01:46:29","updated_at":null},
+{"id":"4","type":"image","mime_type":null,"name":"certificate","url":"media\/gallery\/4\/4.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-02-19 01:46:29","updated_at":null},
+{"id":"5","type":"image","mime_type":null,"name":"certificate","url":"media\/gallery\/5\/5.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-02-19 01:46:29","updated_at":null},
+{"id":"6","type":"image","mime_type":null,"name":"certificate","url":"media\/gallery\/6\/6.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-02-19 01:46:29","updated_at":null},
+{"id":"7","type":"image","mime_type":null,"name":"certificate","url":"media\/gallery\/7\/7.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-02-19 01:46:29","updated_at":null},
+{"id":"8","type":"image","mime_type":null,"name":"certificate","url":"media\/gallery\/8\/8.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-02-19 01:46:29","updated_at":null},
+{"id":"9","type":"image","mime_type":null,"name":"certificate","url":"media\/gallery\/9\/9.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-02-19 01:46:29","updated_at":null},
+{"id":"10","type":"image","mime_type":null,"name":"gallery item","url":"media\/gallery\/10\/10.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-02-19 01:46:29","updated_at":null},
+{"id":"11","type":"image","mime_type":null,"name":"gallery item","url":"media\/gallery\/11\/11.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-02-19 01:46:29","updated_at":null},
+{"id":"12","type":"image","mime_type":null,"name":"gallery item","url":"media\/gallery\/11\/11.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-02-19 01:46:29","updated_at":null},
+{"id":"13","type":"image","mime_type":null,"name":"gallery item","url":"media\/gallery\/12\/12.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-02-19 01:46:29","updated_at":null},
+{"id":"14","type":"video","mime_type":null,"name":null,"url":"media\/gallery\/13\/13.mp4","poster_url":null,"available_formats":"[\"360p\",\"480p\",\"720p\",\"1080p\"]","converted":"1","created_at":"2021-02-19 01:46:29","updated_at":null},
+{"id":"17","type":"image","mime_type":null,"name":"basic course","url":"media\/gallery\/17\/17.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-03-20 17:39:02","updated_at":"2021-03-20 17:39:43"},
+{"id":"18","type":"image","mime_type":null,"name":"basic course","url":"media\/gallery\/18\/18.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-03-20 17:41:04","updated_at":"2021-03-20 17:41:43"},
+{"id":"19","type":"image","mime_type":null,"name":"module iii","url":"media\/gallery\/19\/19.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-03-20 17:45:20","updated_at":"2021-03-20 17:45:56"},
+{"id":"20","type":"image","mime_type":null,"name":"module I","url":"media\/gallery\/20\/20.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-03-20 17:47:59","updated_at":"2021-03-20 17:48:37"},
+{"id":"21","type":"image","mime_type":null,"name":"sinus lift","url":"media\/gallery\/21\/21.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-03-20 17:50:45","updated_at":"2021-03-20 17:51:32"},
+{"id":"23","type":"image","mime_type":null,"name":"basic","url":"media\/gallery\/23\/23.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-03-20 17:55:16","updated_at":"2021-03-20 17:55:53"},
+{"id":"24","type":"image","mime_type":null,"name":null,"url":"media\/gallery\/24\/24.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-03-20 17:56:56","updated_at":"2021-03-20 17:57:45"},
+{"id":"25","type":"image","mime_type":null,"name":"sinus","url":"media\/gallery\/25\/25.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-03-20 18:01:02","updated_at":"2021-03-20 18:01:41"},
+{"id":"26","type":"image","mime_type":null,"name":null,"url":"media\/gallery\/26\/26.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-03-20 18:02:05","updated_at":"2021-03-20 18:02:17"},
+{"id":"27","type":"image","mime_type":null,"name":null,"url":"media\/gallery\/27\/27.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-03-20 18:03:45","updated_at":"2021-03-20 18:04:21"},
+{"id":"28","type":"image","mime_type":null,"name":"live course","url":"media\/gallery\/28\/28.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-03-22 20:24:43","updated_at":"2021-03-22 20:25:09"},
+{"id":"29","type":"image","mime_type":null,"name":"live course","url":"media\/gallery\/29\/29.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-03-22 20:25:55","updated_at":"2021-03-22 20:26:16"},
+{"id":"30","type":"image","mime_type":null,"name":"live course","url":"media\/gallery\/30\/30.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-03-22 20:26:34","updated_at":"2021-03-22 20:26:55"},
+{"id":"31","type":"image","mime_type":null,"name":"live course","url":"media\/gallery\/31\/31.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-03-22 20:28:36","updated_at":"2021-03-22 20:29:00"},
+{"id":"32","type":"image","mime_type":null,"name":"live course","url":"media\/gallery\/32\/32.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-03-22 20:30:05","updated_at":"2021-03-22 20:30:29"},
+{"id":"33","type":"image","mime_type":null,"name":"live course","url":"media\/gallery\/33\/33.jpg","poster_url":null,"available_formats":null,"converted":null,"created_at":"2021-03-22 20:38:10","updated_at":"2021-03-22 20:38:31"}
+]
+}
+]

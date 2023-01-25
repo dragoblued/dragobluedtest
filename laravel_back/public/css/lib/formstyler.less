@@ -1,0 +1,66 @@
+// FILE
+.jq-file {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+
+	input {
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		opacity: 0;
+		font-size: 100px;
+		line-height: 1em;
+	}
+}
+.jq-file__name {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.jq-file {
+	width: 100%;
+	font: normal 16px @baseFont;
+
+	input {
+		cursor: pointer;
+	}
+}
+.jq-file__name {
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	width: 100%;
+	height: 40px;
+	padding: 0 100px+@spacing 0 @spacing;
+	border: 1px solid @gray;
+	color: @dark;
+	background: transparent;
+}
+.jq-file__browse {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	bottom: 1px;
+	width: 100px;
+	padding: 0 10px;
+	background: @active;
+	color: @light;
+}
+.jq-file:hover .jq-file__browse {}
+.jq-file:active .jq-file__browse {}
+.jq-file.focused .jq-file__name {}
+.jq-file.disabled,
+.jq-file.disabled .jq-file__name,
+.jq-file.disabled .jq-file__browse {
+	border-color: #CCC;
+	background: #F5F5F5;
+	color: #888;
+}

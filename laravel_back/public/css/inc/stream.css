@@ -1,0 +1,87 @@
+.animation-blinking {
+  opacity: 1;
+  animation: blink 2s linear infinite;
+  -webkit-animation: blink 2s linear infinite;
+}
+@keyframes blink {
+  50% {
+    opacity: 0.5;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    opacity: 0.5;
+  }
+}
+.stream__video-wrap {
+  max-height: 600px;
+}
+.stream__video {
+  min-height: 400px;
+  max-height: 600px;
+  max-width: 100%;
+}
+.stream-btn-group {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #BDBDBD;
+  border-radius: 0.25rem;
+  padding: 0.3rem 0.7rem;
+}
+.stream-btn-group__label {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #BDBDBD;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0.5rem;
+  transform: translateY(-50%);
+  font-size: 0.7rem;
+}
+.participants__members {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+.participant {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.participant__name {
+  white-space: nowrap;
+}
+.selected-messages__main {
+  max-height: 500px;
+  padding: 0.5rem 0;
+}
+.selected-messages__main.inserted {
+  border: 1px solid #BDBDBD;
+  border-radius: 0.25rem;
+  padding: 1rem 0.5rem;
+  margin: 0.5rem 0;
+}
+.stream-statuses {
+  position: fixed;
+  bottom: 0;
+  left: 0.75rem;
+  z-index: 2147483647;
+}
+.stream-statuses__item {
+  padding: 0.6rem 1rem;
+  color: #fff;
+  display: block;
+  opacity: 0;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+  border-radius: 0.1rem;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+.stream-statuses__item.on {
+  opacity: 1;
+  margin-bottom: 0.75rem;
+}
+

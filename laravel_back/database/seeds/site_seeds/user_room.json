@@ -1,0 +1,380 @@
+[
+	{
+		"id" : 128,
+		"user_id" : 3,
+		"room_id" : 1,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 129,
+		"user_id" : 2,
+		"room_id" : 16,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 130,
+		"user_id" : 3,
+		"room_id" : 16,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 131,
+		"user_id" : 4,
+		"room_id" : 16,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 132,
+		"user_id" : 6,
+		"room_id" : 16,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 133,
+		"user_id" : 11,
+		"room_id" : 16,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 134,
+		"user_id" : 15,
+		"room_id" : 16,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 135,
+		"user_id" : 16,
+		"room_id" : 16,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 136,
+		"user_id" : 19,
+		"room_id" : 16,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 137,
+		"user_id" : 20,
+		"room_id" : 16,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 138,
+		"user_id" : 22,
+		"room_id" : 16,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 139,
+		"user_id" : 23,
+		"room_id" : 16,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 140,
+		"user_id" : 27,
+		"room_id" : 16,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 141,
+		"user_id" : 29,
+		"room_id" : 16,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 142,
+		"user_id" : 30,
+		"room_id" : 16,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 143,
+		"user_id" : 32,
+		"room_id" : 16,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 144,
+		"user_id" : 33,
+		"room_id" : 16,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 145,
+		"user_id" : 34,
+		"room_id" : 16,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 146,
+		"user_id" : 2,
+		"room_id" : 14,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 147,
+		"user_id" : 3,
+		"room_id" : 14,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 148,
+		"user_id" : 6,
+		"room_id" : 14,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 149,
+		"user_id" : 4,
+		"room_id" : 14,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 150,
+		"user_id" : 20,
+		"room_id" : 14,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 151,
+		"user_id" : 33,
+		"room_id" : 14,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 152,
+		"user_id" : 32,
+		"room_id" : 14,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 153,
+		"user_id" : 29,
+		"room_id" : 14,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 154,
+		"user_id" : 27,
+		"room_id" : 14,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 155,
+		"user_id" : 23,
+		"room_id" : 14,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 156,
+		"user_id" : 22,
+		"room_id" : 14,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 157,
+		"user_id" : 19,
+		"room_id" : 14,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 158,
+		"user_id" : 3,
+		"room_id" : 2,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 159,
+		"user_id" : 4,
+		"room_id" : 2,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 160,
+		"user_id" : 11,
+		"room_id" : 3,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 161,
+		"user_id" : 6,
+		"room_id" : 4,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 162,
+		"user_id" : 2,
+		"room_id" : 4,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 163,
+		"user_id" : 46,
+		"room_id" : 5,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 164,
+		"user_id" : 46,
+		"room_id" : 6,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 165,
+		"user_id" : 46,
+		"room_id" : 7,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 166,
+		"user_id" : 46,
+		"room_id" : 8,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 167,
+		"user_id" : 47,
+		"room_id" : 5,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 168,
+		"user_id" : 47,
+		"room_id" : 6,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 169,
+		"user_id" : 47,
+		"room_id" : 7,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 170,
+		"user_id" : 47,
+		"room_id" : 8,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 171,
+		"user_id" : 2,
+		"room_id" : 2,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 172,
+		"user_id" : 3,
+		"room_id" : 9,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 174,
+		"user_id" : 4,
+		"room_id" : 9,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 175,
+		"user_id" : 6,
+		"room_id" : 10,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 176,
+		"user_id" : 2,
+		"room_id" : 10,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 177,
+		"user_id" : 6,
+		"room_id" : 11,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 178,
+		"user_id" : 6,
+		"room_id" : 12,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 179,
+		"user_id" : 2,
+		"room_id" : 12,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 180,
+		"user_id" : 46,
+		"room_id" : 13,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 181,
+		"user_id" : 2,
+		"room_id" : 13,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 182,
+		"user_id" : 4,
+		"room_id" : 1,
+		"created_at" : null,
+		"updated_at" : null
+	}
+]

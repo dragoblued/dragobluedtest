@@ -1,0 +1,22 @@
+[
+{"type":"header","version":"4.9.5deb2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"algirdas"},
+{"type":"table","name":"dates","database":"algirdas","data":
+[
+{"id":"10","event_id":"2","year":"2021","start":"2021-07-19","end":"2021-07-20","lang":"Russian","seats_total":"0","seats_vacant":"0","is_expired":"0","created_at":"2021-02-22 13:59:19","updated_at":"2021-03-28 17:55:50"},
+{"id":"11","event_id":"2","year":"2021","start":"2021-07-22","end":"2021-07-23","lang":"Russian","seats_total":"0","seats_vacant":"0","is_expired":"0","created_at":"2021-02-22 13:59:44","updated_at":"2021-03-28 17:56:14"},
+{"id":"12","event_id":"2","year":"2021","start":"2021-07-26","end":"2021-07-27","lang":"Russian","seats_total":"0","seats_vacant":"0","is_expired":"0","created_at":"2021-02-22 14:00:07","updated_at":"2021-03-28 17:56:22"},
+{"id":"13","event_id":"2","year":"2021","start":"2021-07-29","end":"2021-07-30","lang":"Russian","seats_total":"0","seats_vacant":"0","is_expired":"0","created_at":"2021-02-22 14:01:32","updated_at":"2021-03-28 17:56:32"},
+{"id":"14","event_id":"2","year":"2021","start":"2021-08-02","end":"2021-08-03","lang":"Russian","seats_total":"0","seats_vacant":"0","is_expired":"0","created_at":"2021-02-23 00:34:20","updated_at":"2021-03-28 17:56:45"},
+{"id":"15","event_id":"2","year":"2021","start":"2021-08-05","end":"2021-08-06","lang":"Russian","seats_total":"0","seats_vacant":"0","is_expired":"0","created_at":"2021-02-23 00:34:43","updated_at":"2021-03-28 17:56:53"},
+{"id":"16","event_id":"2","year":"2021","start":"2021-08-12","end":"2021-08-13","lang":"Russian","seats_total":"0","seats_vacant":"0","is_expired":"0","created_at":"2021-02-23 00:35:05","updated_at":"2021-03-28 17:57:00"},
+{"id":"17","event_id":"3","year":"2021","start":"2021-08-16","end":"2021-08-17","lang":"Russian","seats_total":"0","seats_vacant":"0","is_expired":"0","created_at":"2021-02-23 00:35:29","updated_at":"2021-03-28 17:57:16"},
+{"id":"18","event_id":"3","year":"2021","start":"2021-08-23","end":"2021-08-24","lang":"Russian","seats_total":"0","seats_vacant":"0","is_expired":"0","created_at":"2021-02-23 00:35:57","updated_at":"2021-03-28 17:57:41"},
+{"id":"19","event_id":"4","year":"2021","start":"2021-08-19","end":"2021-08-20","lang":"Russian","seats_total":"0","seats_vacant":"0","is_expired":"0","created_at":"2021-02-23 00:36:26","updated_at":"2021-03-28 17:57:24"},
+{"id":"20","event_id":"4","year":"2021","start":"2021-08-26","end":"2021-08-27","lang":"Russian","seats_total":"0","seats_vacant":"0","is_expired":"0","created_at":"2021-02-23 00:36:51","updated_at":"2021-03-28 17:57:49"},
+{"id":"21","event_id":"3","year":"2021","start":"2021-09-06","end":"2021-09-07","lang":"Russian","seats_total":"0","seats_vacant":"0","is_expired":"0","created_at":"2021-02-23 00:37:47","updated_at":"2021-03-28 17:57:56"},
+{"id":"22","event_id":"4","year":"2021","start":"2021-09-09","end":"2021-09-10","lang":"Russian","seats_total":"0","seats_vacant":"0","is_expired":"0","created_at":"2021-02-23 00:38:12","updated_at":"2021-03-28 17:58:04"},
+{"id":"24","event_id":"6","year":"2021","start":"2021-05-13","end":"2021-05-13","lang":"Lithuanian","seats_total":"24","seats_vacant":"21","is_expired":"0","created_at":"2021-03-28 16:40:48","updated_at":"2021-04-13 00:00:02"}
+]
+}
+]

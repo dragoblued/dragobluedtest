@@ -1,0 +1,28 @@
+@import "../_vars";
+.user-avatar-img {
+    object-fit: cover;
+}
+.user-device {
+    position: relative;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    margin: 1px;
+}
+.user-device:hover .user-device__delete-icon {
+    opacity: 1;
+}
+.user-device__delete-icon {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 15px;
+    width: 15px !important;
+    color: red;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity .3s ease;
+}

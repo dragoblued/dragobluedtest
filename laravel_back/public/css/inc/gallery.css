@@ -1,0 +1,20 @@
+.gallery-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.gallery-list__item {
+  margin: 0.2rem;
+}
+.gallery-list-item {
+  max-width: 200px;
+  width: 100%;
+}
+.gallery-list-item__media {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  max-height: 200px;
+}
+

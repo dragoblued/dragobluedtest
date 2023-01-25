@@ -1,0 +1,27 @@
+.transition(@sec: 0.3s, @props: all, @delay: 0s, @type: ease) {
+	transition: @props @sec @type @delay;
+}
+
+.gradient(@start: #c00, @end: #000, @deg: 90deg) {
+	background-color: @start;
+	background-image: linear-gradient(@deg, @start, @end);
+}
+
+.placeholder (@opacity: 1, @color: #000) {
+	&::-webkit-input-placeholder {
+		opacity: @opacity;
+		color: @color;
+	}
+	&::-moz-placeholder {
+		opacity: @opacity;
+		color: @color;
+	}
+	&:-moz-placeholder {
+		opacity: @opacity;
+		color: @color;
+	}
+	&:-ms-input-placeholder {
+		opacity: @opacity;
+		color: @color;
+	}
+}

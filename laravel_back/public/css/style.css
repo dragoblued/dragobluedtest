@@ -1,0 +1,929 @@
+/* ___________1. Сброс CSS_____________________ */
+* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+time,
+mark,
+audio,
+video,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+section,
+summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+input[type="submit"],
+input[type="reset"] {
+  cursor: pointer;
+}
+::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  outline: none;
+}
+object {
+  pointer-events: none;
+}
+/* ___________2. Типовые элементы______________ */
+.pl-0px {
+  padding-left: 0;
+}
+.pl-30px {
+  padding-left: 30px;
+}
+.pl-70px {
+  padding-left: 70px;
+}
+.pl-100px {
+  padding-left: 100px;
+}
+.pl-10p {
+  padding-left: 10%;
+}
+.px-15px {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+.px-10p {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.pt-10px {
+  padding-top: 10px;
+}
+.pt-20px {
+  padding-top: 20px;
+}
+.pt-30px {
+  padding-top: 30px;
+}
+.pt-40px {
+  padding-top: 40px;
+}
+.pt-50px {
+  padding-top: 50px;
+}
+.pt-70px {
+  padding-top: 70px !important;
+}
+.pt-90px {
+  padding-top: 90px;
+}
+.pt-100px,
+.py-100px {
+  padding-top: 100px;
+}
+.pt-150px {
+  padding-top: 150px;
+}
+.pt-180px {
+  padding-top: 180px;
+}
+.pb-50px {
+  padding-bottom: 50px;
+}
+.pb-90px {
+  padding-bottom: 90px;
+}
+.pb-100px,
+.py-100px {
+  padding-bottom: 100px;
+}
+.pb-115px {
+  padding-bottom: 115px;
+}
+.pb-150px {
+  padding-bottom: 150px;
+}
+.pb-180px {
+  padding-bottom: 180px;
+}
+.ml-20px {
+  margin-left: 20px;
+}
+.ml-30px {
+  margin-left: 30px;
+}
+.ml-40px {
+  margin-left: 40px;
+}
+.ml-80px {
+  margin-left: 80px;
+}
+.mt-20px {
+  margin-top: 20px;
+}
+.mt-30px {
+  margin-top: 30px;
+}
+.mt-50px {
+  margin-top: 50px;
+}
+.mt-60px {
+  margin-top: 60px;
+}
+.mt-70px {
+  margin-top: 70px;
+}
+.mt-90px {
+  margin-top: 90px;
+}
+.mt-100px {
+  margin-top: 100px;
+}
+.mt-110px {
+  margin-top: 110px;
+}
+.mt-130px {
+  margin-top: 130px;
+}
+.mt-160px {
+  margin-top: 160px;
+}
+.mb-20px {
+  margin-bottom: 20px;
+}
+.mb-30px {
+  margin-bottom: 30px;
+}
+.mb-40px {
+  margin-bottom: 40px;
+}
+.mb-50px {
+  margin-bottom: 50px;
+}
+.mb-60px {
+  margin-bottom: 60px;
+}
+.mb-100px {
+  margin-bottom: 100px;
+}
+.mb-150px {
+  margin-bottom: 150px;
+}
+.my-50px {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.my-100px {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.fz-0_5rem {
+  font-size: 0.5rem;
+}
+.fz-0_6rem {
+  font-size: 0.6rem;
+}
+.fz-0_7rem {
+  font-size: 0.7rem;
+}
+.fz-0_8rem {
+  font-size: 0.8rem;
+}
+.fz-0_9rem {
+  font-size: 0.9rem;
+}
+.fz-1rem {
+  font-size: 1rem;
+}
+.fz-1_1rem {
+  font-size: 1.1rem;
+}
+.fz-1_2rem {
+  font-size: 1.2rem;
+}
+.fz-1_5rem {
+  font-size: 1.5rem;
+}
+.fz-1_8rem {
+  font-size: 1.8rem;
+}
+.fz-2rem {
+  font-size: 2rem;
+}
+.fz-2_5rem {
+  font-size: 2.5rem;
+}
+.fz-3rem {
+  font-size: 3rem;
+}
+.lh-1 {
+  line-height: 1;
+}
+.lh-1_2 {
+  line-height: 1.2;
+}
+.lh-1_5 {
+  line-height: 1.5;
+}
+.lh-2 {
+  line-height: 2;
+}
+.min-height-360px {
+  min-height: 360px;
+}
+.w-20p {
+  min-width: 20%;
+  width: 20%;
+}
+.w-25p {
+  min-width: 25%;
+  width: 25%;
+}
+.max-w-50p {
+  max-width: 50% !important;
+}
+.max-w-70p {
+  max-width: 70% !important;
+}
+.max-w-80p {
+  max-width: 80% !important;
+}
+.color-inherit {
+  color: inherit !important;
+}
+.color-black {
+  color: black !important;
+}
+.color-white {
+  color: white !important;
+}
+.color-red {
+  color: #dc3545 !important;
+}
+.color-gold {
+  color: #CC9966 !important;
+}
+.color-blue {
+  color: #2D3748 !important;
+}
+.color-light-blue {
+  color: #69A7F7 !important;
+}
+.color-333 {
+  color: #333333 !important;
+}
+.color-82 {
+  color: #828282 !important;
+}
+.flex-basis-20p {
+  flex-basis: 20%;
+}
+.flex-basis-50p {
+  flex-basis: 50%;
+}
+.flex-basis-100p {
+  flex-basis: 100%;
+}
+.overflow-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.outline-none {
+  outline: none;
+}
+.cursor-default {
+  cursor: default !important;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.bdrs-0 {
+  border-radius: 0 !important;
+}
+.bdrs-025rem {
+  border-radius: 0.25rem !important;
+}
+.bdrs-50p {
+  border-radius: 50% !important;
+}
+.bdrs-bottom-0 {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.shadow-focus-none:focus {
+  box-shadow: none;
+}
+.underline-primary {
+  border-bottom: 1px solid #CC9966;
+}
+.text-decoration-through {
+  text-decoration: line-through;
+}
+.text-decoration-underline {
+  text-decoration: underline;
+}
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+.narrow-srollbar *::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.narrow-srollbar *::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+}
+.narrow-srollbar *::-webkit-scrollbar-thumb {
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+/*-----------------------*/
+/*-----------MIN WIDTHS------------*/
+/*-----------------------*/
+@media (min-width: 576px) {
+  .pl-sm-10p {
+    padding-left: 10% !important;
+  }
+  .pl-sm-30px {
+    padding-left: 30px !important;
+  }
+  .pl-sm-70px {
+    padding-left: 70px !important;
+  }
+  .pl-sm-100px {
+    padding-left: 100px !important;
+  }
+  .pt-sm-50px {
+    padding-top: 50px !important;
+  }
+  .pt-sm-70px {
+    padding-top: 70px !important;
+  }
+  .pt-sm-90px {
+    padding-top: 90px !important;
+  }
+  .px-sm-15px {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .px-sm-10p {
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+  }
+  .mt-sm-25px {
+    margin-top: 25px !important;
+  }
+  .mt-sm-30px {
+    margin-top: 30px !important;
+  }
+  .mt-sm-50px {
+    margin-top: 50px !important;
+  }
+  .mt-sm-60px {
+    margin-top: 60px !important;
+  }
+  .mt-sm-100px {
+    margin-top: 100px !important;
+  }
+  .mt-sm-110px {
+    margin-top: 110px !important;
+  }
+  .mb-sm-50px {
+    margin-bottom: 50px !important;
+  }
+  .mb-sm-100px {
+    margin-bottom: 100px !important;
+  }
+  .my-sm-50px {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .my-sm-100px {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .w-sm-20p {
+    min-width: 20%;
+    width: 20%;
+  }
+  .w-sm-25p {
+    min-width: 25%;
+    width: 25%;
+  }
+  .fz-sm-0_6rem {
+    font-size: 0.6rem;
+  }
+  .fz-sm-0_7rem {
+    font-size: 0.7rem;
+  }
+  .fz-sm-0_8rem {
+    font-size: 0.8rem;
+  }
+  .fz-sm-0_9rem {
+    font-size: 0.9rem;
+  }
+  .fz-sm-1rem {
+    font-size: 1rem;
+  }
+  .fz-sm-1_1rem {
+    font-size: 1.1rem;
+  }
+  .fz-sm-1_2rem {
+    font-size: 1.2rem;
+  }
+  .fz-sm-1_5rem {
+    font-size: 1.5rem;
+  }
+  .fz-sm-1_8rem {
+    font-size: 1.8rem;
+  }
+  .fz-sm-2rem {
+    font-size: 2rem;
+  }
+  .fz-sm-2_5rem {
+    font-size: 2.5rem;
+  }
+  .fz-sm-3rem {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 768px) {
+  .pl-md-10p {
+    padding-left: 10% !important;
+  }
+  .pl-md-30px {
+    padding-left: 30px !important;
+  }
+  .pl-md-70px {
+    padding-left: 70px !important;
+  }
+  .pl-md-100px {
+    padding-left: 100px !important;
+  }
+  .pt-md-50px {
+    padding-top: 50px !important;
+  }
+  .pt-md-70px {
+    padding-top: 70px !important;
+  }
+  .pt-md-90px {
+    padding-top: 90px !important;
+  }
+  .px-md-15px {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .px-md-10p {
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+  }
+  .mt-md-30px {
+    margin-top: 30px !important;
+  }
+  .mt-md-50px {
+    margin-top: 50px !important;
+  }
+  .mt-md-60px {
+    margin-top: 60px !important;
+  }
+  .mt-md-100px {
+    margin-top: 100px !important;
+  }
+  .mt-md-110px {
+    margin-top: 110px !important;
+  }
+  .mb-md-50px {
+    margin-bottom: 50px !important;
+  }
+  .mb-md-100px {
+    margin-bottom: 100px !important;
+  }
+  .my-md-50px {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .my-md-100px {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .w-md-20p {
+    min-width: 20%;
+    width: 20%;
+  }
+  .w-md-25p {
+    min-width: 25%;
+    width: 25%;
+  }
+  .fz-md-0_6rem {
+    font-size: 0.6rem;
+  }
+  .fz-md-0_7rem {
+    font-size: 0.7rem;
+  }
+  .fz-md-0_8rem {
+    font-size: 0.8rem;
+  }
+  .fz-md-0_9rem {
+    font-size: 0.9rem;
+  }
+  .fz-md-1rem {
+    font-size: 1rem;
+  }
+  .fz-md-1_1rem {
+    font-size: 1.1rem;
+  }
+  .fz-md-1_2rem {
+    font-size: 1.2rem;
+  }
+  .fz-md-1_5rem {
+    font-size: 1.5rem;
+  }
+  .fz-md-1_8rem {
+    font-size: 1.8rem;
+  }
+  .fz-md-2rem {
+    font-size: 2rem;
+  }
+  .fz-md-2_5rem {
+    font-size: 2.5rem;
+  }
+  .fz-md-3rem {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 992px) {
+  .pl-lg-50px {
+    padding-left: 50px !important;
+  }
+  .pl-lg-30px {
+    padding-left: 30px !important;
+  }
+  .pl-lg-70px {
+    padding-left: 70px !important;
+  }
+  .pl-lg-100px {
+    padding-left: 100px !important;
+  }
+  .pt-lg-50px {
+    padding-top: 50px !important;
+  }
+  .pt-lg-70px {
+    padding-top: 70px !important;
+  }
+  .pt-lg-90px {
+    padding-top: 90px !important;
+  }
+  .px-lg-15px {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .px-lg-10p {
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+  }
+  .mt-lg-30px {
+    margin-top: 30px !important;
+  }
+  .mt-lg-50px {
+    margin-top: 50px !important;
+  }
+  .mt-lg-60px {
+    margin-top: 60px !important;
+  }
+  .mt-lg-100px {
+    margin-top: 100px !important;
+  }
+  .mt-lg-110px {
+    margin-top: 110px !important;
+  }
+  .mb-lg-50px {
+    margin-bottom: 50px !important;
+  }
+  .mb-lg-100px {
+    margin-bottom: 100px !important;
+  }
+  .my-lg-50px {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .my-lg-100px {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .w-lg-20p {
+    min-width: 20%;
+    width: 20%;
+  }
+  .w-lg-25p {
+    min-width: 25%;
+    width: 25%;
+  }
+  .fz-lg-0_6rem {
+    font-size: 0.6rem;
+  }
+  .fz-lg-0_7rem {
+    font-size: 0.7rem;
+  }
+  .fz-lg-0_8rem {
+    font-size: 0.8rem;
+  }
+  .fz-lg-0_9rem {
+    font-size: 0.9rem;
+  }
+  .fz-lg-1rem {
+    font-size: 1rem;
+  }
+  .fz-lg-1_1rem {
+    font-size: 1.1rem;
+  }
+  .fz-lg-1_2rem {
+    font-size: 1.2rem;
+  }
+  .fz-lg-1_5rem {
+    font-size: 1.5rem;
+  }
+  .fz-lg-1_8rem {
+    font-size: 1.8rem;
+  }
+  .fz-lg-2rem {
+    font-size: 2rem;
+  }
+  .fz-lg-2_5rem {
+    font-size: 2.5rem;
+  }
+  .fz-lg-3rem {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  .pl-xl-100px {
+    padding-left: 100px !important;
+  }
+  .pl-xl-30px {
+    padding-left: 30px !important;
+  }
+  .pl-xl-70px {
+    padding-left: 70px !important;
+  }
+  .pl-xl-100px {
+    padding-left: 100px !important;
+  }
+  .pt-xl-50px {
+    padding-top: 50px !important;
+  }
+  .pt-xl-70px {
+    padding-top: 70px !important;
+  }
+  .pt-xl-90px {
+    padding-top: 90px !important;
+  }
+  .px-xl-15px {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .px-xl-10p {
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+  }
+  .mt-xl-30px {
+    margin-top: 30px !important;
+  }
+  .mt-xl-50px {
+    margin-top: 50px !important;
+  }
+  .mt-xl-60px {
+    margin-top: 60px !important;
+  }
+  .mt-xl-80px {
+    margin-top: 80px !important;
+  }
+  .mt-xl-100px {
+    margin-top: 100px !important;
+  }
+  .mt-xl-110px {
+    margin-top: 110px !important;
+  }
+  .mb-xl-50px {
+    margin-bottom: 50px !important;
+  }
+  .mb-xl-100px {
+    margin-bottom: 100px !important;
+  }
+  .my-xl-50px {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .my-xl-100px {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .w-xl-20p {
+    min-width: 20%;
+    width: 20%;
+  }
+  .w-xl-25p {
+    min-width: 25%;
+    width: 25%;
+  }
+  .fz-xl-0_6rem {
+    font-size: 0.6rem;
+  }
+  .fz-xl-0_7rem {
+    font-size: 0.7rem;
+  }
+  .fz-xl-0_8rem {
+    font-size: 0.8rem;
+  }
+  .fz-xl-0_9rem {
+    font-size: 0.9rem;
+  }
+  .fz-xl-1rem {
+    font-size: 1rem;
+  }
+  .fz-xl-1_1rem {
+    font-size: 1.1rem;
+  }
+  .fz-xl-1_2rem {
+    font-size: 1.2rem;
+  }
+  .fz-xl-1_5rem {
+    font-size: 1.5rem;
+  }
+  .fz-xl-1_8rem {
+    font-size: 1.8rem;
+  }
+  .fz-xl-2rem {
+    font-size: 2rem;
+  }
+  .fz-xl-2_5rem {
+    font-size: 2.5rem;
+  }
+  .fz-xl-3rem {
+    font-size: 3rem;
+  }
+}
+/* _______________2.1. Заголовки_______________ */
+/* _______________2.2. Ссылки__________________ */
+a {
+  outline: none;
+  color: #69A7F7;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+a:hover,
+a:focus {
+  color: #69A7F7;
+  text-decoration: none;
+}
+/* _______________2.3. Элементы форм___________ */
+/* _______________2.4. Сетка___________________ */
+/* _______________2.5. Базовые_________________ */
+html {
+  height: 100%;
+  font-size: 100%;
+}
+body {
+  height: 100%;
+  background: #fff;
+  color: #000;
+  font-family: PT Root UI_Regular, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+img,
+object {
+  max-width: 100%;
+  outline: none;
+}
+/* _______________2.6. Шрифты__________________ */
+/* _______________2.7. Другие__________________ */
+/* ___________3. HEADER  (Шапка)_______________ */
+/* ___________4. SECTION (Контент)_____________ */
+/* ___________5. FOOTER  (Подвал)______________ */
+@media (max-width: 479px) {
+  /* ___________1. Сброс CSS_____________________ */
+  /* ___________2. Типовые элементы______________ */
+  /* _______________2.1. Заголовки_______________ */
+  /* _______________2.2. Ссылки__________________ */
+  /* _______________2.3. Элементы форм___________ */
+  /* _______________2.4. Сетка___________________ */
+  /* _______________2.5. Базовые_________________ */
+  /* _______________2.6. Шрифты__________________ */
+  /* _______________2.7. Другие__________________ */
+  /* ___________3. HEADER  (Шапка)_______________ */
+  /* ___________4. SECTION (Контент)_____________ */
+  /* ___________5. FOOTER  (Подвал)______________ */
+}
+

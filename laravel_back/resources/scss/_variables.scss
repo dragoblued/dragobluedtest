@@ -1,0 +1,23 @@
+$gray-100: #f8f9fa;
+$gray-600: #868e96;
+$gray-800: #343a40;
+
+$red: #dc3545;
+$yellow: #F7BA6A;
+$green: #006600;
+$cyan: #17a2b8;
+$blue: #69A7F7;
+$gold: #CC9966;
+$black: lighten(#000000, 5%);
+$prevSecondaryColor: #A0AEC0;
+
+$theme-colors: (
+  primary: $gold,
+  secondary: $prevSecondaryColor,
+  success: $green,
+  info: $cyan,
+  warning: $yellow,
+  danger: $red,
+  light: $gray-100,
+  dark: $black
+);
